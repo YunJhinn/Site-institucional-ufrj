@@ -1,0 +1,17 @@
+/* Conf Gerais */
+
+:root {
+    --color-primary: #003366;
+    --color-secondary: #c9e4fe;
+}
+
+
+/* Tamanhos dos Containers */
+.container-desktop {
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;    
+}
+.container-desktop .big {
+    max-width: 1200px;
+}
