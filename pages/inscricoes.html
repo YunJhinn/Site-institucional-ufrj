@@ -31,28 +31,23 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a id="ccolor" class="nav-link active" aria-current="page"
-                                            href="../pages/campus.html">Campus</a>
+                                        <a class="nav-link" href="../index.html">Página Inicial</a>
                                     </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/campus.html">Campus</a>
+                                </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="../pages/cursos.html">Cursos</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Editais
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">2022</a></li>
-                                            <li><a class="dropdown-item" href="#">2023</a></li>
-
-                                            
-                                        
-                                        </ul>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/inscricoes.html">Inscrições</a>
-                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../pages/vestibulares.html">Editais</a>
                                     </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../pages/inscricoes.html">Inscrições</a>
+                                        </li>
+                                        
+                                    </li>
+                                    </ul>
 
                                 </ul>
                                 <form class="d-flex" role="search">
@@ -125,9 +120,9 @@
         
         
             <div class="mb-3">
-                <label for="#campus" class="form-label">Campus</label>
-                <select name="" id="campus" class="form-control" required>
-                    <option value="1">Cidade Universitátia</option>
+                <label for="#campus2" class="form-label">Campus</label>
+                <select name="" id="campus2" class="form-control" required>
+                    <option value="1">Cidade Universitária</option>
                     <option value="2">Duque de Caxias</option>
                     <option value="3">Macaé  Polo Universitário: Centro Multidisciplinar UFRJ-Macaé</option>
                     <option value="4">Praia Vermelha</option>
@@ -136,8 +131,9 @@
             </div>
         </div>
         <div class="col">
-                <label for=""></label>
-                <div class="mb-3">
+                
+                <div class="mb-3" class="tpp"
+                >
                     <label for="#tipodeprova" class="form-label">Tipo de Prova</label>
                 <select name="" id="tipodeprova" class="form-control">
                     <option value="">Presencial</option>
@@ -158,6 +154,9 @@
                 <label for="#certificadoem" class="form-label">Insira seu Certificado de Conclusão do Ensino Médio</label>
                 <div class="mb-3"><input type="file" class="form-control" id="certificadoem" required>
             </div>
+            <div class="mb-3">
+            <button class="btn btn-success">Enviar</button>
+        </div>            
         </form>
     </div> 
 
